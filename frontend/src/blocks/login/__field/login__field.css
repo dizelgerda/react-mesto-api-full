@@ -1,0 +1,19 @@
+.login__field {
+	width: 100%;
+	min-height: 27px;
+
+	margin-bottom: 8px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #cccccc;
+
+	border: none;
+	border-bottom: 2px solid #cccccc;
+	box-sizing: border-box;
+	background: none;
+	padding: 0;
+}

@@ -1,0 +1,35 @@
+.account__add-button {
+    width: 150px;
+    height: 50px;
+
+    padding: 0;
+    margin: 0 auto;
+
+    background-image: url(../../../images/+.svg);
+    background-color: #000000;
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+.account__add-button:hover {
+    opacity: 0.6;
+}
+
+.account__add-button:focus {
+    outline: none;
+}
+
+
+@media (max-width: 880px) {
+    .account__add-button {
+        width: 100%;
+        max-width: 282px;
+    }
+}

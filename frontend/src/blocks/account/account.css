@@ -1,0 +1,33 @@
+.account {
+    max-width: 880px;
+
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 51px;
+
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    justify-items: start;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 1280px) {
+    .account {
+        width: calc(100% - 19px * 2);
+    }
+}
+
+@media (max-width: 880px) {
+    .account {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-bottom: 36px;
+    }
+}
+
+@media (max-width: 618px) {
+    .account {
+        width: calc(100% - 19px * 2);
+    }
+}

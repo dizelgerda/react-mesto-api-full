@@ -1,0 +1,27 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+    visibility: collapse;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s ease-in;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: #000000;
+    opacity: 0.5;
+}

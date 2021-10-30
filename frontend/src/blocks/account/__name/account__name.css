@@ -1,0 +1,21 @@
+.account__name {
+    margin: 0;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 880px) {
+    .account__name {
+        text-align: center;
+        font-size: 27px;
+        line-height: 33px;
+    }
+}

@@ -1,0 +1,16 @@
+.header__email {
+    margin: 0;
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 122%;
+	text-align: right;
+	color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .header__email {
+      display: none;
+  }
+}

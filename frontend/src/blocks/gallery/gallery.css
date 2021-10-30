@@ -1,0 +1,11 @@
+.gallery {
+    max-width: 880px;
+
+    margin: auto;
+}
+
+@media (max-width: 1280px) {
+    .gallery {
+        width: calc(100% - 19px * 2);
+    }
+}

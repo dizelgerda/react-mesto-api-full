@@ -1,0 +1,23 @@
+.account__name-container {
+    display: grid;
+    grid-template-columns: auto min-content;
+    justify-content: start;
+    align-items: center;
+    gap: 18px;
+}
+
+@media (max-width: 880px) {
+    .account__name-container {
+        grid-template-columns: min-content auto min-content;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .account__name-container::after {
+        content: '';
+        width: 18px;
+        height: 18px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+}

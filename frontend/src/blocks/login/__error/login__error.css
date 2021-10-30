@@ -1,0 +1,13 @@
+.login__error {
+	display: block;
+	width: 100%;
+
+	margin: 0;
+	margin-bottom: 25px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: tomato;
+}
