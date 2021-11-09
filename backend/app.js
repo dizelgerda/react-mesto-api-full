@@ -15,7 +15,6 @@ const options = {
   origin: [
     'http://localhost:3001',
     'https://dkovalenko.students.nomoredomains.monster',
-    'https://api.dkovalenko.students.nomoredomains.rocks',
     'http://dkovalenko.students.nomoredomains.monster',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
@@ -25,7 +24,7 @@ const options = {
   credentials: true,
 };
 
-app.use('*', cors(options));
+app.use(cors(options));
 
 app.use(express.json());
 app.use(requestLogger);
